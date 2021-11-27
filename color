@@ -1,0 +1,7 @@
+d3.select("#start2").on("click", function() { rectangle
+.transition() .attr("x", 250) .attr("opacity", 0.5)
+});
+d3.select("#reset2").on("click", function() { rectangle
+.transition()
+.attr("x", 50) //old position .attr("y", 50)
+.attr("opacity", 1) });
